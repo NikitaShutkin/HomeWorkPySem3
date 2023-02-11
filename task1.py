@@ -10,8 +10,8 @@
 
 n = int(input('Введите размер массива: '))
 array = list()
-for i in range(n): # цикл выполнится 5 раз
-    n = int(input()) # пользователь вводит целое число
+for i in range(n): 
+    n = int(input('Введите элемент массива: ')) 
     array.append(n)
 x = int(input('Введите число: '))
 inc = 0

@@ -16,6 +16,6 @@ for i in range(n):
 x = int(input('Введите число: '))
 inc = 0
 for i in array:
-    if i == n:
+    if i == x:
         inc += 1
 print(f' Число {x} встречается {inc} раз')

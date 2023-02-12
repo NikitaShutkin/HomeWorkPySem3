@@ -11,8 +11,8 @@
 n = int(input('Введите размер массива: '))
 array = list()
 for i in range(n): 
-    n = int(input('Введите элемент массива: ')) 
-    array.append(n)
+    a = int(input('Введите элемент массива: ')) 
+    array.append(a)
 x = int(input('Введите число: '))
 inc = 0
 for i in array:
